@@ -4,7 +4,7 @@ v1.0
 
 ## About
 
-This is a Elementary Shell, a light version of real shell on unix system
+This is a Elementary Shell, a light version of real shell on Unix system
 
 ## Note
 
