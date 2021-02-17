@@ -64,7 +64,7 @@ int simple_cmd(char *argv[]){
         }
         int fd = chdir(argv[1]);
         if(fd == -1){ 
-            //cerror if no folder is contained in fd
+            //error if no folder is contained in fd
             write(STDOUT_FILENO,"Directory not found\n",strlen("Directory not found\n"));
             return 1;
         }
